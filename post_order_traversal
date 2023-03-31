@@ -1,11 +1,11 @@
 
-void print_inorder(Node * root)
+void print_post_order(Node * root)
 {
     if (root == NULL)
     {
         return ;
     }
-    print_pos_order(root->left);
+    print_post_order(root->left);
     
     print_post_order(root->right);
     
