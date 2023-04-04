@@ -10,9 +10,9 @@ public:
 
         if (root == NULL)
            return ans ;
+                               
 
-
-         while (1)
+           while (1)
          {
             
             int size = q.size();
